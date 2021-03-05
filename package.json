@@ -1,0 +1,33 @@
+{
+   "name": "@unikka/loginas-api",
+   "version": "0.0.0",
+   "repository": "https://github.com/Unikka/loginas-api.git",
+   "license": "MIT",
+   "dependencies": {
+      "core-js": "^3.8.0",
+      "regenerator-runtime": "^0.13.7"
+   },
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 0",
+      "semantic-release": "semantic-release",
+      "commit": "git-cz",
+      "build": "parcel build src/index.js --out-dir dist/",
+      "watch": "parcel watch src/index.js --out-dir dist/"
+   },
+   "devDependencies": {
+      "@semantic-release/changelog": "^5.0.1",
+      "@semantic-release/git": "^9.0.0",
+      "@semantic-release/release-notes-generator": "^9.0.1",
+      "commitizen": "^4.1.2",
+      "conventional-changelog-eslint": "^3.0.8",
+      "cz-adapter-eslint": "^0.3.0",
+      "parcel": "1.12.3",
+      "prettier": "^2.2.1",
+      "semantic-release": "^17.0.8"
+   },
+   "config": {
+      "commitizen": {
+         "path": "./node_modules/cz-adapter-eslint"
+      }
+   }
+}
