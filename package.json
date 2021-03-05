@@ -3,6 +3,7 @@
    "version": "1.0.0",
    "repository": "https://github.com/Unikka/loginas-api.git",
    "license": "MIT",
+   "main": "dist/index.js",
    "dependencies": {
       "core-js": "^3.8.0",
       "regenerator-runtime": "^0.13.7"
