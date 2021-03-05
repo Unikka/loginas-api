@@ -10,7 +10,7 @@
         {
             "path": "@semantic-release/changelog",
             "changelogFile": "CHANGELOG.md",
-            "changelogTitle": "Changelog Unikka/LoginAs"
+            "changelogTitle": "Changelog Unikka LoginAs API"
         },
         "@semantic-release/github"
     ],
@@ -19,7 +19,7 @@
         "@semantic-release/npm",
         {
             "path": "@semantic-release/git",
-            "assets": ["package.json", "Resources/Public", "CHANGELOG.md"],
+            "assets": ["package.json", "dist", "CHANGELOG.md"],
             "message": "Build: Release ${nextRelease.version} [skip ci]"
         }
     ],
@@ -29,6 +29,6 @@
         "commitsSort": ["subject", "scope"],
       }
     },
-    "publish": ["@semantic-release/github"]
+    "publish": ["@semantic-release/github", "@semantic-release/npm"]
 }
 
