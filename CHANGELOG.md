@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Unikka/loginas-api/compare/v1.0.0...v1.0.1) (2021-03-05)
+
+
+### Fix
+
+* Add missing main section in package.json ([782eca3](https://github.com/Unikka/loginas-api/commit/782eca3918932a5b34f8ffe40e840b7ce9db8d83))
+
 # 1.0.0 (2021-03-05)
 
 
