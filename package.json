@@ -3,7 +3,7 @@
    "version": "1.0.1",
    "repository": "https://github.com/Unikka/loginas-api.git",
    "license": "MIT",
-   "main": "dist/index.js",
+   "main": "index.js",
    "dependencies": {
       "core-js": "^3.8.0",
       "regenerator-runtime": "^0.13.7"
@@ -12,8 +12,9 @@
       "test": "echo \"Error: no test specified\" && exit 0",
       "semantic-release": "semantic-release",
       "commit": "git-cz",
-      "build": "parcel build src/index.js --out-dir dist/",
-      "watch": "parcel watch src/index.js --out-dir dist/"
+      "clean": "rm dist/index.js",
+      "build-dev": "webpack --mode development",
+      "build-prod": "webpack --mode production"
    },
    "devDependencies": {
       "@semantic-release/changelog": "^5.0.1",
@@ -22,7 +23,11 @@
       "commitizen": "^4.1.2",
       "conventional-changelog-eslint": "^3.0.8",
       "cz-adapter-eslint": "^0.3.0",
-      "parcel": "1.12.3",
+      "webpack": "^5.22.0",
+      "webpack-cli": "^4.5.0",
+      "babel-loader": "^8.2.2",
+      "@babel/core": "^7.12.16",
+      "@babel/preset-env": "^7.12.16",
       "prettier": "^2.2.1",
       "semantic-release": "^17.0.8"
    },
