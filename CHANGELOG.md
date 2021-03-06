@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/Unikka/loginas-api/compare/v1.0.1...v1.1.0) (2021-03-06)
+
+
+### Build
+
+* Adjust build command to yarn build-prod ([5d75288](https://github.com/Unikka/loginas-api/commit/5d752880623de82a63d6018aef1ee667c049f80d))
+* Replace parcel bundler with webpack ([1d461d4](https://github.com/Unikka/loginas-api/commit/1d461d476ba62e9bf42bd20d07b3aa16e005608d))
+
+### New
+
+* Add readme with basic information ([448b164](https://github.com/Unikka/loginas-api/commit/448b164414f2e1892bb57433c163e5d8771f1338))
+
 ## [1.0.1](https://github.com/Unikka/loginas-api/compare/v1.0.0...v1.0.1) (2021-03-05)
 
 
