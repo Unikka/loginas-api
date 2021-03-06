@@ -2,8 +2,17 @@
   <img src="https://cdn.jsdelivr.net/gh/unikka/unikka.de/src/assets/unikka_with_background.svg" width="300" />
 </p>
 
-![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability-percentage/Unikka/loginas-api)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+
+<a href="https://www.npmjs.com/package/@unikka/loginas-api">
+    <img alt="npm version" src="https://img.shields.io/npm/v/@unikka/loginas-api.svg?style=flat-square">
+  </a>
+  <a href="https://github.com/prettier/prettier">
+    <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
+  </a>
+  <a href="https://github.com/semantic-release/semantic-release">
+    <img alt="We are using semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square">
+  </a>
+  <a href="https://snyk.io/test/github/Unikka/loginas-api?targetFile=package.json"><img src="https://snyk.io/test/github/Unikka/loginas-api/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/Unikka/loginas-api?targetFile=package.json" style="max-width:100%;"></a>
 
 # Service for the Unikka.LoginAs package
 
