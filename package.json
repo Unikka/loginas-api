@@ -1,6 +1,6 @@
 {
    "name": "@unikka/loginas-api",
-   "version": "1.1.0",
+   "version": "1.1.1",
    "repository": "https://github.com/Unikka/loginas-api.git",
    "license": "MIT",
    "main": "dist/index.js",

@@ -1,3 +1,18 @@
+## [1.1.1](https://github.com/Unikka/loginas-api/compare/v1.1.0...v1.1.1) (2022-05-20)
+
+
+### Build
+
+* Use GitHub actions for releases ([0306e61](https://github.com/Unikka/loginas-api/commit/0306e61590346e69975ba77f3636930798fabb6a))
+
+### Docs
+
+* Update badges ([57b1f07](https://github.com/Unikka/loginas-api/commit/57b1f072b15609ed86a8e5345020fde85836e05b))
+
+### Fix
+
+* Add dist folder to the main path ([8cc7d3c](https://github.com/Unikka/loginas-api/commit/8cc7d3c7ca694c53b61f00f3e588adb839691c66))
+
 # [1.1.0](https://github.com/Unikka/loginas-api/compare/v1.0.1...v1.1.0) (2021-03-06)
 
 
